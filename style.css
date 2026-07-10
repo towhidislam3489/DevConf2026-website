@@ -167,3 +167,69 @@ nav .navigation-content .logo{
 }
 
 /* Meet the speaker section end */
+
+/* Pricing section start */
+
+.Pricing-section .text-section
+{
+    text-align: center;
+
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.Pricing-section .text-section h1{
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.Pricing-section .Pricing-content{
+    max-width: 1320px;
+    height: 300px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 250px;
+
+    display: flex;
+   justify-content: space-between;
+}
+.Pricing-section .Pricing-content .box{
+    /* background-color: red; */
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.Pricing-section .Pricing-content .box div{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Pricing-section .Pricing-content .box div h4{
+    padding-top: 10px;
+}
+.Pricing-section .Pricing-content .box div hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Pricing-section .Pricing-content .box-m{
+    background-color: rgb(240, 237, 231);
+}
+.Pricing-section .Pricing-content .box-s{
+    background-color: rgb(27, 25, 25);
+}
+.Pricing-section .Pricing-content .box-s div{
+    color: aliceblue;
+}
+
+.Pricing-section .Pricing-content .box div button
+{
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    border: 1px solid wheat;
+}
+
+/* Pricing section start */
