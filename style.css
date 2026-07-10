@@ -115,3 +115,55 @@ nav .navigation-content .logo{
 
 
 /* Hero section end */
+
+/* Meet the seaker section  start */
+
+.meet-the-speaker-section{
+    max-width: 1320px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+   
+}
+.meet-the-speaker-section .all-speaker{
+    padding-top: 50px;
+}
+.meet-the-speaker-section .text-content h1{
+     text-align: center;
+    font-size: 60px;
+    font-weight: 900
+}
+.meet-the-speaker-section .all-speaker{
+    display: grid;
+    grid-template-columns: repeat(2,0.2fr);
+    gap: 40px;
+  
+}
+.meet-the-speaker-section .all-speaker{
+    margin-left: 40px !important;
+}
+.meet-the-speaker-section .all-speaker .speaker img{
+        width: 600px;
+        border-radius: 15px;
+      
+}
+.meet-the-speaker-section .all-speaker .speaker{
+    border: 1px solid;
+    width: 600px;
+    border-radius: 15px;
+    background-color: rgb(248, 246, 246);
+   
+
+}
+
+.meet-the-speaker-section .all-speaker .speaker div{
+    padding: 30px;
+}
+.meet-the-speaker-section .all-speaker .speaker div .first-one{
+    padding-bottom: 15px;
+    padding-left: 8px;
+    color: rgb(4, 0, 252);
+    font-size: 17px;
+}
+
+/* Meet the speaker section end */
