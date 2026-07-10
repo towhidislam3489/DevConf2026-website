@@ -396,3 +396,69 @@ footer .footer-foot {
 .event-section .event-content .ses1:hover {
     background-color: antiquewhite;
 }
+
+/* venue start */
+
+.venue{
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+.venue-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.venue-title h2{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.venue-title p{
+    color: gray;
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.venue-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.venue-info{
+    flex: 1;
+}
+
+.info-box{
+    background: #F8FAFC;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.info-box h3{
+    margin-bottom: 10px;
+    color: #2563EB;
+}
+
+.info-box p{
+    color: #555;
+    line-height: 1.6;
+}
+
+.venue-image{
+    flex: 1;
+}
+
+.venue-image img{
+    width: 100%;
+    border-radius: 16px;
+    display: block;
+}
+
+/* venue end */
