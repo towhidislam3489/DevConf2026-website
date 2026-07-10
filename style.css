@@ -1,64 +1,69 @@
-
-*{
+* {
     margin: 0px;
 }
 
-.common-button{
+.common-button {
     background-color: blue;
     color: aliceblue;
     border: 1px solid black;
-  
+
 }
-.common-button:hover
-{
+
+.common-button:hover {
     background-color: rgb(60, 62, 63);
     cursor: pointer;
 }
 
 /* Navigation Start */
-nav
-{
+nav {
     /* background-color:aqua; */
     max-width: 1200px;
     margin: auto;
-       height: 100px;
+    height: 100px;
 }
-nav .navigation-content{
-    
+
+nav .navigation-content {
+
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     padding-top: 20px;
     height: 50px;
 }
-nav .option ul{
+
+nav .option ul {
     display: flex;
     list-style: none;
     gap: 30px;
 }
-nav .option ul li a{
+
+nav .option ul li a {
     font-size: 25px;
     font-weight: 500;
 }
-nav .option ul li:hover{
+
+nav .option ul li:hover {
     cursor: pointer;
 }
 
-nav .option ul li a{
+nav .option ul li a {
     text-decoration: none;
 }
-nav .reg-button{
-    padding-left: 200px; 
+
+nav .reg-button {
+    padding-left: 200px;
 }
-nav .reg-button button{
-     width: 150px;
-     height: 50px;
-     font-size: 15px;
-     font-weight: 700;
-     border-radius: 10px;
+
+nav .reg-button button {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
 }
-nav .navigation-content .logo{
+
+nav .navigation-content .logo {
     padding-right: 200px;
 }
 
@@ -68,14 +73,14 @@ nav .navigation-content .logo{
 /* Hero section Start */
 
 
-.hero-section
-{
+.hero-section {
     /* height: 600px; */
     /* max-width: 1200px; */
     margin: auto;
 }
-.hero-section-content{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./assets/banner.jpg');
+
+.hero-section-content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
     /* height: 1200px; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,33 +89,37 @@ nav .navigation-content .logo{
     /* border-radius: 20px; */
     margin-bottom: 50px;
 }
-.hero-section .hero-section-content h1,.hero-section .hero-section-content p{
+
+.hero-section .hero-section-content h1,
+.hero-section .hero-section-content p {
     color: aliceblue;
 }
-.hero-section .hero-section-content h1{
+
+.hero-section .hero-section-content h1 {
     padding-top: 150px;
     padding-bottom: 40px;
     font-size: 70px;
     font-weight: 900;
 }
-.hero-section .hero-section-content p
-{
+
+.hero-section .hero-section-content p {
     padding: 0px 400px;
     padding-bottom: 200px;
     font-size: 25px;
 }
-.hero-section .hero-section-content
-{
+
+.hero-section .hero-section-content {
     text-align: center;
 }
-.hero-section .hero-section-content button{
+
+.hero-section .hero-section-content button {
     padding: 20px;
     font-size: 15px;
     font-weight: 700;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
-    
+
 }
 
 
@@ -118,48 +127,55 @@ nav .navigation-content .logo{
 
 /* Meet the seaker section  start */
 
-.meet-the-speaker-section{
+.meet-the-speaker-section {
     max-width: 1320px;
     margin: auto;
     padding-top: 150px;
     padding-bottom: 50px;
-   
+
 }
-.meet-the-speaker-section .all-speaker{
+
+.meet-the-speaker-section .all-speaker {
     padding-top: 50px;
 }
-.meet-the-speaker-section .text-content h1{
-     text-align: center;
+
+.meet-the-speaker-section .text-content h1 {
+    text-align: center;
     font-size: 60px;
     font-weight: 900
 }
-.meet-the-speaker-section .all-speaker{
+
+.meet-the-speaker-section .all-speaker {
     display: grid;
-    grid-template-columns: repeat(2,0.2fr);
+    grid-template-columns: repeat(2, 0.2fr);
     gap: 40px;
-  
+
 }
-.meet-the-speaker-section .all-speaker{
+
+.meet-the-speaker-section .all-speaker {
     margin-left: 40px !important;
 }
-.meet-the-speaker-section .all-speaker .speaker img{
-        width: 600px;
-        border-radius: 15px;
-      
+
+.meet-the-speaker-section .all-speaker .speaker img {
+    width: 600px;
+    border-radius: 15px;
+
 }
-.meet-the-speaker-section .all-speaker .speaker{
+
+.meet-the-speaker-section .all-speaker .speaker {
     border: 1px solid;
     width: 600px;
     border-radius: 15px;
     background-color: rgb(248, 246, 246);
-   
+
 
 }
 
-.meet-the-speaker-section .all-speaker .speaker div{
+.meet-the-speaker-section .all-speaker .speaker div {
     padding: 30px;
 }
-.meet-the-speaker-section .all-speaker .speaker div .first-one{
+
+.meet-the-speaker-section .all-speaker .speaker div .first-one {
     padding-bottom: 15px;
     padding-left: 8px;
     color: rgb(4, 0, 252);
@@ -170,21 +186,20 @@ nav .navigation-content .logo{
 
 /* Pricing section start */
 
-.Pricing-section .text-section
-{
+.Pricing-section .text-section {
     text-align: center;
 
     padding-bottom: 80px;
     padding-top: 80px;
 }
 
-.Pricing-section .text-section h1{
+.Pricing-section .text-section h1 {
     padding-bottom: 20px;
     font-size: 40px;
     font-weight: 900;
 }
 
-.Pricing-section .Pricing-content{
+.Pricing-section .Pricing-content {
     max-width: 1320px;
     height: 300px;
     margin-left: 250px;
@@ -192,38 +207,44 @@ nav .navigation-content .logo{
     margin-bottom: 250px;
 
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
 }
-.Pricing-section .Pricing-content .box{
+
+.Pricing-section .Pricing-content .box {
     /* background-color: red; */
     width: 300px;
     height: 400px;
     border-radius: 10px;
 }
-.Pricing-section .Pricing-content .box div{
+
+.Pricing-section .Pricing-content .box div {
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
 }
-.Pricing-section .Pricing-content .box div h4{
+
+.Pricing-section .Pricing-content .box div h4 {
     padding-top: 10px;
 }
-.Pricing-section .Pricing-content .box div hr{
+
+.Pricing-section .Pricing-content .box div hr {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.Pricing-section .Pricing-content .box-m{
+
+.Pricing-section .Pricing-content .box-m {
     background-color: rgb(240, 237, 231);
 }
-.Pricing-section .Pricing-content .box-s{
+
+.Pricing-section .Pricing-content .box-s {
     background-color: rgb(27, 25, 25);
 }
-.Pricing-section .Pricing-content .box-s div{
+
+.Pricing-section .Pricing-content .box-s div {
     color: aliceblue;
 }
 
-.Pricing-section .Pricing-content .box div button
-{
+.Pricing-section .Pricing-content .box div button {
     margin-left: 20px;
     margin-top: 40px;
     padding: 10px;
@@ -237,47 +258,141 @@ nav .navigation-content .logo{
 
 /* footer section start */
 
-footer
-{
+footer {
     background-color: black;
     height: 500px;
 }
-footer .top-footer .social-link div{
+
+footer .top-footer .social-link div {
     color: rgb(175, 180, 183);
     font-size: 20px;
 }
-footer .top-footer .social-link
-{
+
+footer .top-footer .social-link {
     margin-top: -50px;
 }
 
-footer .top-footer .social-link div a
-{
+footer .top-footer .social-link div a {
     display: flex;
     gap: 10px;
     padding: 10px;
     text-decoration: none;
     color: aliceblue;
 }
+
 /* footer .top-footer .social-link div p
 {
     display: grid;
 } */
 
-footer .top-footer
-{
+footer .top-footer {
     display: flex;
     justify-content: space-between;
     /* margin: 80px; */
     padding: 80px;
 }
 
-footer .footer-foot
-{
+footer .footer-foot {
     color: aliceblue;
     display: flex;
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 100px;
+}
+
+/* about section start */
+
+.about-section {
+    background-color: antiquewhite;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    margin-top: 150px !important;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.about-section .about-text {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+
+/* sheduling start */
+.event-section {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.event-section .text-section-event {
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 100px;
+}
+.event-section .text-section-event h1{
+    padding-bottom: 20px;
+}
+.event-section .text-section-event p{
+    width: 500px;
+    text-align: center;
+    padding-left: 400px;
+}
+
+.event-section .event-content {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 10px;
+    margin-top: 50px;
+
+}
+
+.event-section .event-content .ses .Schedule-section {
+    display: flex;
+    gap: 50px;
+}
+
+.event-section .event-content .ses {
+    /* background-color: rgb(126, 229, 229); */
+    padding: 20px;
+    height: 300px;
+    width: 550px;
+    border-radius: 10px;
+    background: #f1ebeb;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+
+}
+
+.event-section .event-content {
+    margin-left: 70px !important;
+}
+
+.event-section .event-content .ses h2 {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.event-section .event-content .ses hr {
+    margin-bottom: 50px
+}
+
+.event-section .event-content .ses2:hover {
+    background-color: antiquewhite;
+}
+
+.event-section .event-content .ses3:hover {
+    background-color: antiquewhite;
+}
+
+.event-section .event-content .ses4:hover {
+    background-color: antiquewhite;
+}
+
+.event-section .event-content .ses1:hover {
+    background-color: antiquewhite;
 }
