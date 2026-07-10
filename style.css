@@ -232,4 +232,52 @@ nav .navigation-content .logo{
     border: 1px solid wheat;
 }
 
-/* Pricing section start */
+/* Pricing section end */
+
+
+/* footer section start */
+
+footer
+{
+    background-color: black;
+    height: 500px;
+}
+footer .top-footer .social-link div{
+    color: rgb(175, 180, 183);
+    font-size: 20px;
+}
+footer .top-footer .social-link
+{
+    margin-top: -50px;
+}
+
+footer .top-footer .social-link div a
+{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+/* footer .top-footer .social-link div p
+{
+    display: grid;
+} */
+
+footer .top-footer
+{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 80px; */
+    padding: 80px;
+}
+
+footer .footer-foot
+{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
